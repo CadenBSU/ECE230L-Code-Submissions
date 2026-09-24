@@ -27,6 +27,10 @@ and that rule is not broken when groups span across edges. This is why cells are
 adjacent if they are on opposite ends on either axis of the table.
 
 ### Why are the names Sum of Products and Products of Sums?
+In the context of boolean logic, sum means OR and product means AND. For SOP, you take minterms,
+where each minterm is a product of inputs, and you then take the sum of each of these groups.
+For POS, you take the maxterms consisting of products of the inputs, and sum each maxterm for
+the final function.
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
 
