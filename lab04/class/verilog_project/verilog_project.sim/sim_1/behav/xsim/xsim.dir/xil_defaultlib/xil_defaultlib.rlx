@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Users/CADENKNOX/Desktop/lab03/class/maxterm.v,1790291372,verilog,,C:/Users/CADENKNOX/Desktop/lab03/class/minterm.v,,maxterm,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/CADENKNOX/Desktop/lab03/class/minterm.v,1790291310,verilog,,C:/Users/CADENKNOX/Desktop/lab03/class/naive.v,,minterm,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/CADENKNOX/Desktop/lab03/class/naive.v,1790290636,verilog,,C:/Users/CADENKNOX/Desktop/lab03/class/top.v,,naive,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/CADENKNOX/Desktop/lab03/class/test.v,1790286986,verilog,,,,test,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/CADENKNOX/Desktop/lab03/class/top.v,1790286986,verilog,,C:/Users/CADENKNOX/Desktop/lab03/class/test.v,,top,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/CADENKNOX/Desktop/lab03/class/verilog_project/verilog_project.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
