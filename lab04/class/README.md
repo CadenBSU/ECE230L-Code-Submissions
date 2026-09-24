@@ -15,7 +15,10 @@ using an implemented design on your Basys3 boards.
 
 ## Lab Summary
 
-Summarize your learnings from the lab here.
+In this lab we implemented a function in Vivado using a truth table.
+We also generated minterm and maxterm functions from this truth table
+and implemented them in Vivado in seperate files. Finally, we
+successfully tested this functionality on real hardware.
 
 ## Lab Questions
 
