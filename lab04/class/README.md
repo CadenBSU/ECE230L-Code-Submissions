@@ -33,4 +33,4 @@ For POS, you take the maxterms consisting of products of the inputs, and sum eac
 the final function.
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
-
+Because the specific equation, is checking the output of the naive.v against the other signals. If both signals are 0, we output 0, and we are good. If both signals output 1, since this is XOR, and not OR, we will also get a zero. BUT, if the signals are different, with only one of them being 1 and the other 0, then because this is an XOR operation, we have an output of 1, which can be used to indicate a mismatch.
