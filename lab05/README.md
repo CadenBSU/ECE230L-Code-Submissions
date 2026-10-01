@@ -22,8 +22,17 @@ We created a maxterm and minterm equation for two truth tables, circuit a and ci
 ## Lab Questions
 
 ### 1 - Explain the role of the Top Level file.
+The role of the top level file is to instantiate modules and define input/output
+signals. It is the root of the entire project and specifies each connection that
+the board will contain.
 
 ### 2 - Explain the function of the Constraints file.
-The constraints file defines which switches and leds are attached to what pins within the board itself. For example, led[0] is pin U16. The constraints file just maps these things together so that the actual output from U16 goes to led[0].
-### 3 - Was the selection of Minterm and Maxterm correct for each circuit? What would you have chosen?
+The constraints file defines which switches and leds are attached to what pins
+within the board itself. For example, led[0] is pin U16. The constraints file just
+maps these things together so that the actual output from U16 goes to led[0].
 
+### 3 - Was the selection of Minterm and Maxterm correct for each circuit? What would you have chosen?
+The selection of Minterm and Maxterm was not ideal, because for circuit A, it
+would have been much more efficient to use Minterms, and for circuit B, it would
+have been more efficient to use maxterms. This is because circuit A contains more
+output values of "0", and circuit B contains more output values of "1".
