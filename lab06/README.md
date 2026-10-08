@@ -11,11 +11,17 @@ In this lab you've learned the basics of number theory as it relates to addition
 | Question 2 | Your answers to the question | 25% |
 | Question 3 | Your answers to the question | 25% |
 
+## Name
+Zachery Woodruff, Caden Knox
+
 ## Lab Questions
 
 ### 1 - How might you add more than two bits together?
 
 ### 2 - What is the importance of the XOR gate in an adder?
+The XOR gate in an adder matches the logic to calculate the sum of two bits without considering
+the carryout value. It effectively functions as a modulo 2 operation, which is ideal for binary
+addition.
 
 ### 3 - What is the largest number a two bit adder can handle? What happens when you go over?
 
