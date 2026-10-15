@@ -25,6 +25,7 @@ The code in the half adder from the last lab and the half subtractor in this lab
 difference being that we invert the value of A in the AND statement after the XOR statement.
 
 ### 2 - What about the end around carry of One’s Complement makes it hard to use and implement?
+We have two different zero representations: 0000 and 1111, and if you have another 1 at the end you have to loop it back around again.
 
 ### 3 - What is the edge case and problem with Two’s Complement number representation?
 
