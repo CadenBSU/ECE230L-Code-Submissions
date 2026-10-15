@@ -28,4 +28,4 @@ difference being that we invert the value of A in the AND statement after the XO
 We have two different zero representations: 0000 and 1111, and if you have another 1 at the end you have to loop it back around again.
 
 ### 3 - What is the edge case and problem with Two’s Complement number representation?
-
+Two's compliment can only represent numbers in the range -2^(n-1) to 2^(n-1) - 1. Any value outside of this range (which CAN happen if you are not careful) can cause overflow, giving you an incorrect answer, so you need to have a backup plan by detecting overflow first.
