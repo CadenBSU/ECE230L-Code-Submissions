@@ -19,7 +19,9 @@ Zachery Woodruff, Caden Knox
 ## Lab Questions
 
 ###  Why can we not just use structural Verilog to implement latches?
+It creates timing issues if we dont, and we can end up in an infinite loop.
 
 ### What is the meaning of always @(*) in a sensitivity block?
+It is used for combinational logic, as opposed to sequential logic. It makes it so you dont have to list inputs over again.
 
 ### What importance is memory to digital circuits?
