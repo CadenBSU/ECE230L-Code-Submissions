@@ -12,6 +12,7 @@ In this lab, you learned about the basic building block of sequential circuits: 
 | Question 3 | Your answers to the question | 25% |
 
 ## Names
+Zachery Woodruff, Caden Knox
 
 ## Summary
 
