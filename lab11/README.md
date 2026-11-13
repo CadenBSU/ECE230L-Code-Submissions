@@ -16,11 +16,11 @@ Zachery Woodruff, Caden Knox
 
 ## Summary
 In this lab we made a modulo counter and a ripple counter. The modulo counter flips a
-bit every time the clock signal is pulsed a certain amount of times (5 in our case). To
+bit every time the clock signal is pulsed a certain amount of times (6 in our case). To
 achieve this, we used out full adder from a couple labs ago, as well as our d-flip-flop
 from the last lab, with a new reset functionality. The ripple counter counts how many
 times the clock signal is pulsed by chaining together t-flip-flops, and resets the count
-when it reaches a specific count (5).
+when it reaches a specific count (6).
 
 ## Lab Questions
 
