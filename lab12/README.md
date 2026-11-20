@@ -15,12 +15,18 @@ In this lab, you’ve learned about One Hot and Binary state machines and how to
 Zachery Woodruff, Caden Knox
 
 ## Summary
-TODO
+We took a state machine table, and translated it into a state diagram. After this translation, we then further
+translated that same state machine table into a series of KMaps. Using those KMaps, we were able to construct
+logic equations, and built a one hot encoded state machine, and a binary state machine. Afterwards, these
+machines were tested on the FPGA, and the outputs were compared.
 
 ## Lab Questions
 
 ### Compare and contrast One Hot and Binary encodings
-TODO
+For one hot encoding vs binary encoding, you are choosing whether you want your state machine to be run off of
+a series of flip flops or combinational logic. They both use flip flops, but how they use them differs. With N
+being the number of states, one hot uses a N flip flops for its states. Binary uses log2(N) flip flops for its
+states. One hot checks only its current state's bit, and binary has to check all the state bits.
 
 ### Which method did your team find easier, and why?
 We found the one hot method to be slightly easier than the binary one, mainly because it didn't
